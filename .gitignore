@@ -1,0 +1,23 @@
+# Ignore compiled binary
+smtp2zoho
+
+# Go build outputs (cross-platform)
+*.exe
+*.out
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+*.swp
+
+# Ignore local environment files
+.env
+
+# Ignore test scripts (all in test/ folder)
+test/
+
+# Keep scripts (example usage), no ignore for scripts/
+buildx-push.sh
